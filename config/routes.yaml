@@ -1,3 +1,7 @@
-#index:
-#    path: /
-#    controller: App\Controller\DefaultController::index
+admin_login:
+    path: /admin/login
+    controller: App\Controller\AdminLoginController::index
+
+admin_dashboard:
+    path: /admin/dashboard
+    controller: App\Controller\AdminDashboardController::index
